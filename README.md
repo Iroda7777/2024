@@ -8,7 +8,7 @@
 
 // [“Hello”, “2”, “world”, “:-)”] → [“2”, “:-)”]
 // [“1234”, “1567”, “-2”, “computer science”] → [“-2”]
-// [“Uzbekistan”, “Tashkent”, “Bukhara”] → []
+// [“Russia”, “Denmark”, “Kazan”] → []
 
 Commands();
 string[] array = new string[] {};
@@ -23,7 +23,7 @@ switch (fromUser)
         array = new string[] { "1234", "1567", "-2", "computer science" };
         break;
     case "3":
-        array = new string[] { “Uzbekistan”, “Tashkent”, “Bukhara” };
+        array = new string[] { “Russia”, “Denmark”, “Kazan” };
         break;
     default:
         Console.WriteLine($"{fromUser} - Такой команды нет");
@@ -60,7 +60,7 @@ void Commands()
     Console.WriteLine("СПИСОК КОМАНД:");
     Console.WriteLine("1 – использовать массив: [“Hello”, “2”, “world”, “:-)”]");
     Console.WriteLine("2 – использовать массив: [“1234”, “1567”, “-2”, “computer science”]");
-    Console.WriteLine("3 – использовать массив: [“Uzbekistan”, “Tashkent”, “Bukhara”]");
+    Console.WriteLine("3 – использовать массив: [“Russia”, “Denmark”, “Kazan”]");
     Console.WriteLine();
 }
 
